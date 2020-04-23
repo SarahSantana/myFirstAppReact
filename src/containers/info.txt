@@ -1,0 +1,5 @@
+containers: arquivos que serão centralizadores 
+das funções e propriedades que vamos disponibilizar
+ para uma página ou um componente. Ex: home.js 
+ receberá dados do usuário e a função de atualizar 
+ o banner de acordo com estado que o usuário selecionar.

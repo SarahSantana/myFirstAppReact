@@ -1,0 +1,6 @@
+actions: será a pasta responsável por toda 
+lógica de requisição http ao backend. 
+Então, quando tivermos por exemplo que fazer 
+uma requisição de login, teremos um arquivo 
+login.js onde nele estarão as requisições 
+http referente as funcionalidade de login.

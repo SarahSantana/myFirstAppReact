@@ -1,0 +1,5 @@
+pages: são os arquivos que referenciam as 
+rotas da nossa aplicação e, esses arquivos 
+tem uma relação direta com os containers, 
+pois são neles que são realizadas as 
+chamadas das propriedades e funções dessa página.

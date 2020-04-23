@@ -1,0 +1,9 @@
+store: é a pasta responsável por 
+conter o arquivo de configuração 
+do Redux. Uma vez configurado e 
+entendido, você não precisará mais 
+mexer nele. É ele que irá criar 
+nosso “banco de dados” e aplicar 
+o conceito de middleware, ou seja, 
+permite a comunicação e o gerenciamento 
+de dados dentro da nossa aplicação.

@@ -1,0 +1,4 @@
+Styles: será composta por todo 
+nosso estilo da aplicação, nele 
+irá conter os arquivos de css, 
+imagens, fontes, etc.

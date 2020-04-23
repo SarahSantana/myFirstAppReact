@@ -1,0 +1,6 @@
+components: é responsável por ter todos os 
+componentes ReactJs que serão globais para 
+aplicação, ou seja, se tiver um componente 
+do tipo botão, teremos uma pasta chamada button 
+e dentro dela, todos arquivos (jsx, test, etc) 
+referente ao componente.

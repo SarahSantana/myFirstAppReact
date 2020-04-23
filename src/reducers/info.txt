@@ -1,0 +1,9 @@
+reducers: serão nosso “banco de dados” da 
+aplicação, aqui teremos nossas “entidades”. 
+Por exemplo, se vamos fazer um request 
+http para o backend para pegar os dados 
+de um usuário, a resposta desta requisição 
+ficará armazenada nesse arquivo em uma 
+variável que poderá ser utilizada por 
+qualquer página de aplicação 
+(desde que esteja referenciado).

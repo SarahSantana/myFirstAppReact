@@ -1,0 +1,8 @@
+router: será nosso arquivo que irá 
+gerenciar as rotas de navegação da 
+aplicação ,(para esse funcionalidade 
+utilizaremos o react-router) então, 
+teremos um arquivo que, quando o 
+usuário digitar “www.xptop.com/dashboar” 
+ele saberá qual componente(page) 
+deve renderizar no browser.
