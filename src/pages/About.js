@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from '../styles/logo.svg';
 import '../styles/App.css';
+import AppTemplate from '../components/templates/app';
+import Header from '../components/header';
+import Button from '../components/button';
 
 class About extends React.Component {
 
@@ -23,8 +26,8 @@ class About extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <AppTemplate>
+        <Header>
           <img src={logo} className="App-logo" alt="logo" />
           {console.log(this.props)}
           <p>Esta é uma página que você deve escrever sobre você</p>
@@ -39,14 +42,15 @@ class About extends React.Component {
                 onChange={this.changeUserName}
                 value={this.state.userName}
               />
-              <button
+              <Button
                 type="button"
-                onClick={this.handleChangeName}
-              >Mudar nome</button>
+                handleChangeName={this.handleChangeName}
+                text="Mudar nome"
+              />
             </div>
           </div>
-        </header>
-      </div>
+        </Header>
+      </AppTemplate>
     );
   }
 
